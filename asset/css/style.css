@@ -1,0 +1,159 @@
+body
+{   
+    background-color: grey;
+
+}
+
+}
+nav
+{
+    background-color: aqua;   
+}
+header 
+{
+    height: 100%;
+    background-color: #080B1E;
+    color: white;
+}
+article
+{
+    background-color: white;
+}
+.nom
+{
+    width: 9%;
+}
+.barre
+{   display: flex;
+    flex-direction: row;
+    background-image:linear-gradient(to right,rgb(82, 250, 82),rgb(158, 240, 158),rgb(78, 126, 170));
+    margin-top: -2.1%;
+    height: 30%;
+    padding-bottom: -90%;
+}
+
+}
+.body
+{
+    background-color: indigo;
+    height: 90%;
+    padding: 0px;
+    margin: 0px;
+
+}
+.block
+{
+    display: inline-block;    
+    padding-top: 0px;
+    padding:1px;
+    padding-right: 10px;
+    margin-right:60px;
+    /*background-color: blue;*/
+    width: 95%;
+    height: 30%;
+ 
+}
+
+.etat-civil
+{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.tete
+{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height:50%;
+   
+
+}
+hr
+{
+    margin-top: -18px;
+}
+
+.photo
+{
+    border-radius: 50%;
+    border-style: groove blue;
+    width: 60%;
+    margin-left: 35px;
+    border-image: linear-gradient(red,blue) 27;
+    /*background-image: radial-gradient(circle at center,white,green);
+    justify-content: center;
+    justify-items: center;*/
+}
+.lieu,.email,.phone
+{
+    width:20%;
+    height: 50px;
+    /*filter: drop-shadow(100%);*/
+}
+.class-email,.class-phone,.class-lieu
+{
+    display: flex;
+    flex-direction: row;
+}
+.class-lieu-lieu
+{
+    display: flex;
+    flex-direction: column;
+}
+.exp-line1,.form-line1,.comp-line1,.langue-line1,.comp-pro-line1,.Int-line1,.premiere-line,.deuxieme-line,.troisieme-line
+{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+
+}
+/*---------------------------------------------------------------------------*/
+.imge-barre1
+{
+    width: 25%;
+    height: 50%;
+    padding-bottom: 0px;
+}
+.imge-interet,.imge-experience,.imge-formation,.imge-competence,.imge-langue,.imge-competence-perso
+{
+    width: 6%;
+    height: 6%;
+    margin-left: 10px;
+    margin-top: -10px;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.point-respo,.point-projet,.point-cycle-ing-line1,.point-prepas-line1,.point-baccalaureat-line1,.point-certificat-line1,.point-language-prom,.point-microcontro,.francais,.Anglais,.comp-pro-line1,.creativite,.Communication,.Attitude-positive,.Travail-en-équipe,.lecture,.musique,.Sport,.jeux,.inetret-line2,.inetret-line1
+{
+    display: flex;
+    flex-direction: row;
+}
+/*-----------------------------------------------------------------------------------------*/
+.point
+{
+    width: 5%;
+    height: 18px;
+}
+.experience,.formation,.langue,.competence,.competence-perso,.Intérêts
+{
+    margin:10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.formation
+{
+    height: 30%;
+    width: 60%;
+}
+footer
+{
+    background-image:linear-gradient(to right,rgb(82, 250, 82),rgb(158, 240, 158),rgb(78, 126, 170));
+    height: 95%;
+    height: 50%;
+    margin-top: -16px;
+    padding-bottom: 1%;
+    text-align: center;
+}
+}
